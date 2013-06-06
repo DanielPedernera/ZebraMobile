@@ -55,7 +55,7 @@
                 <Border.Background>
                     <SolidColorBrush  Color="#FFE96F25" Opacity="0.9"></SolidColorBrush>
                 </Border.Background>
-                <Grid Background="Transparent">
+                <Grid Background="Transparent" Name="contentPlaces" Tap="goToPlaces">
                     <!--<Image Source="/Assets/MainPageIcons/dondeV2.png" Width="150" Height="150" Margin="32,39,31,74" />-->
                     <TextBlock Text="Places" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="72,0,0,11" FontFamily="Century Gothic" FontSize="24" ></TextBlock>
                 </Grid>
